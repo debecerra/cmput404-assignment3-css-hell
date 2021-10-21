@@ -27,6 +27,6 @@ Code is licensed under the Apache 2.0 license.
 
 Steps to Modify Gutenberg Files
 =================
-1. Created a CSS file styles.css and placed it in gutenberg/ directory
-2. Added the line `<link rel="stylesheet" href="styles.css">` at the end of the head section in each of the gutenberg HTML files. This needed to go after the other CSS styling so that it would override the previously applied styles.
-3. Modified the CSS file. Created tags for body, h1, h2, p, etc. For one of the gutenberg files, the existing CSS styles had specific files that could not be targeted with rules for HTML tags. For these cases, I had to create more specific rules by combining HTML tag and a CSS class (e.g. div.c2).
+1. Created a CSS file `styles.css` and placed it in `gutenberg/`
+2. Added the line `<link rel="stylesheet" href="styles.css">` at the end of the `<head>` section in each of the gutenberg HTML files. This needed to go after the other CSS styling so that it would override the existing styles applied by gutenberg.
+3. Modified the CSS file and created rules for different elements in the gutenberg HTML files. Created style rules for basic HTML elemenets such as `<body>`, `<h1>`, `<h2>`, `<p>`, `<img>` and `<figcaption>`. I also created style rules for classes which were already present in the gutenberg webpages. For some of the gutenberg webpages, the existing CSS styles used selectors that were more specific than what was present in my custom CSS file, so my new files were not overriding the old styles. For these cases, I had to create more specific CSS rules by combining HTML tag and a CSS class in a single rule (e.g. div.c2).
