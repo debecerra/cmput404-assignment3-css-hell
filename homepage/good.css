@@ -1,0 +1,93 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding-bottom: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200pt;
+    background-color: #11999E;
+    text-align: center;
+}
+
+.banner-header {
+    color: whitesmoke;
+    font-size: 4em;
+    font-family: Cambria, 'Times New Roman', serif;
+    margin-bottom: 12pt;
+}
+
+.banner-subheader {
+    color: whitesmoke;
+    font-size: 1.5em;
+    font-style: italic;
+    margin-top: 0;
+    font-family: Cambria, 'Times New Roman', serif
+}
+
+main {
+    height: 100%;
+    margin: 0 20%;
+    padding-bottom: 50pt;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 10em;
+    float: right;
+    background-color: lightgray;
+}
+
+.section {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.left-img {
+    float: left;
+    width: 80pt;
+    margin: 10pt;
+}
+
+.right-img {
+    float: right;
+    width: 80pt;
+    padding: 10pt;
+}
+
+/* Adapted from W3Schools: https://www.w3schools.com/css/css_navbar_horizontal.asp */
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(99, 99, 99);
+}
+
+/* Adapted from W3Schools: https://www.w3schools.com/css/css_navbar_horizontal.asp */
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Adapted from W3Schools: https://www.w3schools.com/css/css_navbar_horizontal.asp */
+
+nav li a:hover {
+    background-color: #333;
+}
