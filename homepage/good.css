@@ -66,13 +66,13 @@ main {
 
 .left-img {
     float: left;
-    width: 80pt;
+    width: 90pt;
     margin: 10pt;
 }
 
 .right-img {
     float: right;
-    width: 80pt;
+    width: 90pt;
     padding: 10pt;
 }
 
