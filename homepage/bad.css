@@ -28,9 +28,12 @@ body {
 .banner-subheader {
     color: rebeccapurple;
     font-size: 1.5em;
-    font-style: italic;
     margin-top: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+h1, h2, h3:hover {
+    color: green;
 }
 
 main {
@@ -40,7 +43,7 @@ main {
 }
 
 .sidebar {
-    height: 100%;
+    height: 100vh;
     margin: 5%;
     padding: 0 1em;
     width: 14em;
@@ -106,7 +109,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(128, 207, 243);
 }
 
 /* Adapted from W3Schools: https://www.w3schools.com/css/css_navbar_horizontal.asp */
@@ -122,5 +125,5 @@ nav li a {
 /* Adapted from W3Schools: https://www.w3schools.com/css/css_navbar_horizontal.asp */
 
 nav li a:hover {
-    background-color: #333;
+    background-color: rgb(202, 37, 37);
 }
