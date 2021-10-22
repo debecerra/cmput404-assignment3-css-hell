@@ -1,0 +1,126 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding-bottom: 5%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background: linear-gradient(45deg, #cebc1c, #9198e5);
+    background-size: cover;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200pt;
+    background-color: orange;
+    text-align: center;
+}
+
+.banner-header {
+    color: red;
+    font-size: 4em;
+    margin-bottom: 12pt;
+}
+
+.banner-subheader {
+    color: rebeccapurple;
+    font-size: 1.5em;
+    font-style: italic;
+    margin-top: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+main {
+    height: 100%;
+    margin: 0 14%;
+    padding-bottom: 50pt;
+}
+
+.sidebar {
+    height: 100%;
+    margin: 5%;
+    padding: 0 1em;
+    width: 14em;
+    float: right;
+    background: linear-gradient(0deg, #eb41c0, #8257e7);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.skill-list {
+    padding: 0
+}
+
+.skill {
+    list-style-type: none;
+    margin-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.section {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 3%;
+}
+
+#about-me {
+    background-color: plum;
+    border-radius: 20px;
+    margin-right: 40%;
+}
+
+#experience {
+    background-color: yellowgreen;
+    border-radius: 20px;
+    margin-right: 40%;
+}
+
+#benefits {
+    background-color: burlywood;
+    border-radius: 20px;
+    margin-right: 40%;
+}
+
+.left-img {
+    float: left;
+    width: 90pt;
+    margin: 10pt;
+}
+
+.right-img {
+    float: right;
+    width: 90pt;
+    padding: 10pt;
+}
+
+/* Adapted from W3Schools: https://www.w3schools.com/css/css_navbar_horizontal.asp */
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(99, 99, 99);
+}
+
+/* Adapted from W3Schools: https://www.w3schools.com/css/css_navbar_horizontal.asp */
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Adapted from W3Schools: https://www.w3schools.com/css/css_navbar_horizontal.asp */
+
+nav li a:hover {
+    background-color: #333;
+}
